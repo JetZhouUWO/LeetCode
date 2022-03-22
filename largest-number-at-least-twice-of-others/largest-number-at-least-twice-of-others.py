@@ -3,14 +3,20 @@ class Solution(object):
         """
         :type nums: List[int]
         :rtype: int
+        不考虑重复element的情况
         """
-        if len(nums) <= 1:
+        if len(nums) == 1:
             return 0
-        num_copy= list(set(nums))
-        max_val = sorted(num_copy)[-1]
-        num_copy.remove(max_val)
-        second = sorted(num_copy)[-1]
-        if max_val >= second*2:
-            return nums.index(max_val)
+        
+        #找最大的value
+        max_val = max(nums)
+        #记录idx
+        idx = nums.index(max_val)
+        #移除最大的
+        nums.remove(max_val)
+        if max_val >= 2*max(nums):
+            return idx
         else:
             return -1
+        
+        
