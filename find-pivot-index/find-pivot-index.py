@@ -3,6 +3,8 @@ class Solution(object):
         """
         :type nums: List[int]
         :rtype: int
+        hint: We can precompute prefix sums P[i] = nums[0] + nums[1] + ... + nums[i-1]. 
+        Then for each index, the left sum is P[i], and the right sum is P[P.length - 1] - P[i] - nums[i].
         """
         #num的总和
         S = sum(nums)
