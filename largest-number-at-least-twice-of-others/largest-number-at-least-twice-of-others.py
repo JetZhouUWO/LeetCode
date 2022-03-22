@@ -14,6 +14,8 @@ class Solution(object):
         idx = nums.index(max_val)
         #移除最大的
         nums.remove(max_val)
+        #或者用pop移除index
+        #nums.pop(idx)
         if max_val >= 2*max(nums):
             return idx
         else:
