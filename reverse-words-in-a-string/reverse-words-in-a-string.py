@@ -4,9 +4,7 @@ class Solution(object):
         :type s: str
         :rtype: str
         """
-        import re
-        regex = r'\b\w+\b'
-        list1=re.findall(regex,s)
-        list1.reverse()
-        return " ".join(list1)
+        l = s.split()
+        l.reverse()                #to reverse in place instead of a copy via l[::-1]
+        return " ".join(l)
         
