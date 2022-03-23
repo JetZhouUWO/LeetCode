@@ -7,8 +7,7 @@ class Solution(object):
         """
         if needle == "":
             return 0
-        for i in range(len(haystack)):
-            if ((haystack[i] == needle[0]) and (haystack[i: i + len(needle)] == needle)):
-                return i
-        return -1
+        elif (needle in haystack):
+                return haystack.index(needle)
+        else: return -1
         
