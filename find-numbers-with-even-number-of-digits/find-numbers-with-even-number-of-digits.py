@@ -4,7 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        rst = [len(str(x))%2 for x in nums].count(0)
-        # sum(1 for x in nums if len(str(x)) % 2 == 0)
+        # rst = [len(str(x))%2 for x in nums].count(0)
+        rst = sum(1 for x in nums if len(str(x)) % 2 == 0)
         return rst
         
