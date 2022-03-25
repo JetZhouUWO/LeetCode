@@ -19,7 +19,14 @@ class Solution(object):
             elif ((nums[i] == val) & (nums[j]==val)):
                 j-=1
                 del nums[-1]
-            #elif ((i==0)&(j==0))
-        #return nums
+        # k = 0
+        # for i in range(len(nums)):
+        #     if nums[i] != val:
+        #         nums[k] = nums[i]
+        #         k += 1
+        # return k
+        
+        # while(val in nums):
+        #     nums.remove(val)
         
         
