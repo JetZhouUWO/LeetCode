@@ -5,5 +5,5 @@ class Solution(object):
         :rtype: List[int]
         """
         rst = [item**2 for item in nums]
-        rst.sort()
-        return rst
+        # sorted(item**2 for item in nums)
+        return sorted(rst)
