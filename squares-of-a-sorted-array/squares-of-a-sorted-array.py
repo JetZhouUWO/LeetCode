@@ -4,6 +4,6 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
-        rst = [item**2 for item in nums]
+        # rst = [item**2 for item in nums]
         # sorted(item**2 for item in nums)
-        return sorted(rst)
+        return sorted(item**2 for item in nums) #sorted(rst)
