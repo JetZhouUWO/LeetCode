@@ -17,11 +17,11 @@ class Solution(object):
           
         # 元素小于中间位置的元素，只需要再比较左边的元素
             elif nums[mid] > target: 
-                r = mid-1 #mid-1 
+                r = mid-1
   
         # 元素大于中间位置的元素，只需要再比较右边的元素
             else: 
-                l = mid+1 #mid+1
+                l = mid+1
 
         return -1
         
