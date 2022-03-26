@@ -6,4 +6,4 @@ class Solution(object):
         """
         # rst = [item**2 for item in nums]
         # sorted(item**2 for item in nums)
-        return sorted(item**2 for item in nums) #sorted(rst)
+        return sorted([item**2 for item in nums]) #sorted(rst)
