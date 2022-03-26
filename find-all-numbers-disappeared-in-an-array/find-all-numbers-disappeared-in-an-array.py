@@ -5,5 +5,6 @@ class Solution(object):
         :rtype: List[int]
         """
         full_arr = [i for i in range(1,len(nums)+1)]
-        return sorted(list(set(full_arr) - set(nums)))
+        #return sorted(list(set(full_arr) - set(nums)))
+        return list(set(full_arr) - set(nums))
         
