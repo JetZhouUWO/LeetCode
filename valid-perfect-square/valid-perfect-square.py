@@ -4,9 +4,9 @@ class Solution(object):
         :type num: int
         :rtype: bool
         """
-        if num == 1:
-            return  True
-        #arr = [i for i in range(1,num)]
+        # if num == 1:
+        #     return  True
+        # arr = [i for i in range(1,num)]
         l, r= 1,num
         while l<=r:
             mid = l + (r-l)//2
