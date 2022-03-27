@@ -6,9 +6,6 @@ class Solution(object):
         :rtype: None Do not return anything, modify nums in-place instead.
         """
         
-        #index = [i in range(len(nums))]
-        #index = [(i+k)%len(nums) for i in idx]
-        
         temp = [0] * len(nums);
         # arr[i] should be
         # present at index[i] index
@@ -19,5 +16,12 @@ class Solution(object):
         for i in range(len(nums)):
             nums[i] = temp[i]
         return nums
+        # for _ in range(1,k+1):
+        #     nums.insert(0,nums[-1])
+        #     del nums[-1]
+        # return nums
+            
+            
+        
         
             
