@@ -20,21 +20,32 @@ class Solution(object):
         #             return True
         #             break
         # return False
-        
-        #超过一个0直接return True
         if arr.count(0) > 1:
                 return True
-        
         i = 0
-        
-        arr_set = set(arr)
-        
         while i < len(arr):
-            
-            if (arr[i] != 0) and (arr[i]*2 in arr_set):
+            if (arr[i] == 0):
+                i+=1
+            elif 2*arr[i] in arr:
                 return True
-            
-            i += 1
-        
+            else:
+                i+=1
         return False
+        
+        #超过一个0直接return True
+#         if arr.count(0) > 1:
+#                 return True
+        
+#         i = 0
+        
+#         arr_set = set(arr)
+        
+#         while i < len(arr):
+            
+#             if (arr[i] != 0) and (arr[i]*2 in arr_set):
+#                 return True
+            
+#             i += 1
+        
+#         return False
         
