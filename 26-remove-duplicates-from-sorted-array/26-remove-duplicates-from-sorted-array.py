@@ -7,10 +7,10 @@ class Solution(object):
         #尝试使用双指针
         count = 1
         j = 0
-        if len(nums) == 1:
-            return count
-        if len(nums) == len(set(nums)):
-            return len(nums)
+        # if len(nums) == 1:
+        #     return count
+        # if len(nums) == len(set(nums)):
+        #     return len(nums)
         N = len(nums) -1
         while j < len(nums)-1:
             if nums[j] == nums[j+1]:
