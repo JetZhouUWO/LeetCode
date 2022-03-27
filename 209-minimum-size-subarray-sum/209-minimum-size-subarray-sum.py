@@ -6,12 +6,18 @@ class Solution(object):
         :rtype: int
         还是采用双指针算法, 左右一起开工
         """
-        # i,j = 0,1
-        # count = []
+        left,total,count = 0,0,len(nums) + 1
         # if sum(nums) < target:
         #     return 0
-        # elif target in nums:
+        # if target in nums:
         #     return 1
+        for right,n in enumerate(nums):
+            total += n
+            while total >= target:
+                count = min(count,right-left+1)
+                total-=nums[left]
+                left +=1
+        return count if count<=len(nums) else 0
         # else:
         #     while i<len(nums):
         #         if sum(nums[i:i+j]) < target:
@@ -23,12 +29,12 @@ class Solution(object):
         # return min(count)
     
     
-        total = left = 0
-        result = len(nums) + 1
-        for right, n in enumerate(nums):
-            total += n
-            while total >= target:
-                result = min(result, right - left + 1)
-                total -= nums[left]
-                left += 1
-        return result if result <= len(nums) else 0
+        # total = left = 0
+        # result = len(nums) + 1
+        # for right, n in enumerate(nums):
+        #     total += n
+        #     while total >= target:
+        #         result = min(result, right - left + 1)
+        #         total -= nums[left]
+        #         left += 1
+        # return result if result <= len(nums) else 0
