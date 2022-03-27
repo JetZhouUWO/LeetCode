@@ -6,27 +6,22 @@ class Solution(object):
         :rtype: int
         还是采用双指针算法, 左右一起开工
         """
+        # count最开始用超过长度的数字,
+        # 一旦全部加起来都达不到target, count就不会被更新, 最后可以返回0值
         left,total,count = 0,0,len(nums) + 1
-        # if sum(nums) < target:
-        #     return 0
-        # if target in nums:
-        #     return 1
         for right,n in enumerate(nums):
+            #每次往后加一个数
             total += n
+            #判断有没有大于等于target
             while total >= target:
+                #更新count
                 count = min(count,right-left+1)
+                # 减掉最左边的值就是从左边的下一个值开始计算到当前值然后继续向后加
+                # 这样可以避免每次都重新算一遍到当前位子的sum
                 total-=nums[left]
+                # 左指针推进一步
                 left +=1
         return count if count<=len(nums) else 0
-        # else:
-        #     while i<len(nums):
-        #         if sum(nums[i:i+j]) < target:
-        #             j+=1
-        #         else:
-        #             count.append(j+1)
-        #             j = 0
-        #             i+=1
-        # return min(count)
     
     
         # total = left = 0
