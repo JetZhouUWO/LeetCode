@@ -12,7 +12,7 @@ class Solution(object):
             i+=1
         return rst
     
-        # O(1) solution
+        # space O(1) solution
         i = 0
         while i < len(nums):
             nums[i],nums[nums[i]] = nums[nums[i]], nums[i]
