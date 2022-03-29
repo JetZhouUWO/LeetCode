@@ -12,12 +12,12 @@ class Solution(object):
         #     i+=1
         # return nums
         
-        # i = 1
-        # while i<len(nums):
-        #     nums[i]+=nums[i-1]
-        #     i+=1
-        # return nums
-    
-        for i in range(1,len(nums)):
-            nums[i] +=nums[i-1]
+        i = 1
+        while i<len(nums):
+            nums[i]+=nums[i-1]
+            i+=1
         return nums
+    
+        # for i in range(1,len(nums)):
+        #     nums[i] +=nums[i-1]
+        # return nums
