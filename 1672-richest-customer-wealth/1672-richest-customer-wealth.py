@@ -8,6 +8,7 @@ class Solution(object):
         # for i in range(len(accounts)):
         #     total.append(sum(accounts[i]))
         # return max(total)
+        
         for i in range(len(accounts)):
             accounts[i] = sum(accounts[i])
         return max(accounts)
