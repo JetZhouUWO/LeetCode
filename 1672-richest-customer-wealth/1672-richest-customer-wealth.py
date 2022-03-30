@@ -4,8 +4,11 @@ class Solution(object):
         :type accounts: List[List[int]]
         :rtype: int
         """
-        total = []
+        # total = []
+        # for i in range(len(accounts)):
+        #     total.append(sum(accounts[i]))
+        # return max(total)
         for i in range(len(accounts)):
-            total.append(sum(accounts[i]))
-        return max(total)
+            accounts[i] = sum(accounts[i])
+        return max(accounts)
         
