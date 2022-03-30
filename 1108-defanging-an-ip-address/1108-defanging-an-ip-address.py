@@ -4,6 +4,6 @@ class Solution(object):
         :type address: str
         :rtype: str
         """
-        rst = address.split(".")
-        return "[.]".join(item for item in rst)
+        #rst = address.split(".")
+        return "[.]".join(item for item in address.split("."))
         
