@@ -9,4 +9,6 @@ class Solution(object):
         # return sum(operations)
         
         # True = +1 in python
-        return sum(('+' in s) - ('-' in s) for s in operations)
+        # return sum(('+' in s) - ('-' in s) for s in operations)
+    
+        return sum(1 if '+' in s else -1 for s in operations)
