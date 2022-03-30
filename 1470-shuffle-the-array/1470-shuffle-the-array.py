@@ -5,7 +5,12 @@ class Solution(object):
         :type n: int
         :rtype: List[int]
         """
-        res = []
-        for i, j in zip(nums[:n],nums[n:]):
-            res += [i,j]
-        return res
+        # res = []
+        # for i, j in zip(nums[:n],nums[n:]):
+        #     res += [i,j]
+        # return res
+        rst = []
+        for i in range(n):
+            rst.append(nums[i])
+            rst.append(nums[i+n])
+        return rst
