@@ -13,10 +13,10 @@ class Solution(object):
             elif not s[r].isalnum():
                 r-=1
             else:
-                if s[l].lower() != s[r].lower():
-                    return False
+                if s[l].lower() == s[r].lower():
+                    l+=1
+                    r-=1
                 else:
-                    l += 1
-                    r -= 1
+                    return False
         return True
         
