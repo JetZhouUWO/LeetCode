@@ -18,7 +18,8 @@ class Solution(object):
         #         i+=1
         #     else:
         #         return nums[2*i]
-            
+        
+        #直接reurn的就是那个只出现一次的值
         return 2*sum(set(nums))-sum(nums)
         
         
