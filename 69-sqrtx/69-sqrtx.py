@@ -10,7 +10,6 @@ class Solution(object):
             mid = l + (r-l)//2
             if mid*mid<= x < (mid+1)*(mid+1):
                 return mid
-                #return floor(test[mid])
             elif (mid)*(mid) > x:
                 r = mid-1
             else:
