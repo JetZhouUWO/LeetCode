@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/JetZhouUWO/LeetCode/tree/master/0001-two-sum) |
 | [0035-search-insert-position](https://github.com/JetZhouUWO/LeetCode/tree/master/0035-search-insert-position) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/JetZhouUWO/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Binary Search
@@ -18,4 +19,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/JetZhouUWO/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/JetZhouUWO/LeetCode/tree/master/0001-two-sum) |
 <!---LeetCode Topics End-->
