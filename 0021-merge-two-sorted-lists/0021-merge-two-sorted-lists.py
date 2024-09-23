@@ -16,10 +16,9 @@ class Solution:
                 list1 = list1.next
             
             cur = cur.next
-
+        
         if list1:
             cur.next = list1
-        else:
+        elif list2:
             cur.next = list2
-        
         return dummy.next
