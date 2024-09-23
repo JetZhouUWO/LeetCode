@@ -21,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/JetZhouUWO/LeetCode/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/JetZhouUWO/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Hash Table
 |  |
@@ -53,9 +54,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0066-plus-one](https://github.com/JetZhouUWO/LeetCode/tree/master/0066-plus-one) |
+| [0070-climbing-stairs](https://github.com/JetZhouUWO/LeetCode/tree/master/0070-climbing-stairs) |
 | [0202-happy-number](https://github.com/JetZhouUWO/LeetCode/tree/master/0202-happy-number) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [0136-single-number](https://github.com/JetZhouUWO/LeetCode/tree/master/0136-single-number) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/JetZhouUWO/LeetCode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
