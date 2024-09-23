@@ -66,4 +66,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/JetZhouUWO/LeetCode/tree/master/0070-climbing-stairs) |
+## Linked List
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/JetZhouUWO/LeetCode/tree/master/0206-reverse-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/JetZhouUWO/LeetCode/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
