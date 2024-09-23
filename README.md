@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/JetZhouUWO/LeetCode/tree/master/0001-two-sum) |
+| [0202-happy-number](https://github.com/JetZhouUWO/LeetCode/tree/master/0202-happy-number) |
 | [0217-contains-duplicate](https://github.com/JetZhouUWO/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/JetZhouUWO/LeetCode/tree/master/0242-valid-anagram) |
 ## String
@@ -46,8 +47,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/JetZhouUWO/LeetCode/tree/master/0125-valid-palindrome) |
+| [0202-happy-number](https://github.com/JetZhouUWO/LeetCode/tree/master/0202-happy-number) |
 ## Math
 |  |
 | ------- |
 | [0066-plus-one](https://github.com/JetZhouUWO/LeetCode/tree/master/0066-plus-one) |
+| [0202-happy-number](https://github.com/JetZhouUWO/LeetCode/tree/master/0202-happy-number) |
 <!---LeetCode Topics End-->
