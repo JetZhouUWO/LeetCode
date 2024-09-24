@@ -16,7 +16,7 @@ class Solution:
                 cur.next = list1
                 list1 = list1.next
             cur = cur.next
-        
+
         if list1:
             cur.next = list1
         if list2:
