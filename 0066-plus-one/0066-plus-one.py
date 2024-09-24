@@ -8,13 +8,12 @@ class Solution:
         # k = str(k)
         # return [int(char) for char in k]
 
-        if (digits[-1] + 1)!= 10:
+        if (digits[-1] + 1) != 10:
             digits[-1] += 1
             return digits
         
-        l = len(digits)
-        for i in range(l-1,-1,-1):
-            if (digits[i] + 1) == 10:
+        for i in range(len(digits)-1,-1,-1):
+            if digits[i]+1 == 10:
                 digits[i] = 0
             else:
                 digits[i] += 1
