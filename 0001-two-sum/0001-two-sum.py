@@ -14,4 +14,3 @@ class Solution:
                 return [idx, mapping[x]]
             else:
                 mapping[num] = idx
-            
