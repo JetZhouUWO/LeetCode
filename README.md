@@ -76,4 +76,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/JetZhouUWO/LeetCode/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/JetZhouUWO/LeetCode/tree/master/0206-reverse-linked-list) |
+## Database
+|  |
+| ------- |
+| [1908-recyclable-and-low-fat-products](https://github.com/JetZhouUWO/LeetCode/tree/master/1908-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
