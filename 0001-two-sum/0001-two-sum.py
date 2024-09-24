@@ -7,8 +7,9 @@ class Solution:
         #         return [nums[:index1+1].index(p), index1+nums[index1+1:].index(p2)+1]
 
         # this one uses hash-map
-        pairs = {}
-        for index, number in enumerate(nums):
-            if target - number in pairs:
-                return[index, pairs[target - number]]
-            pairs[number] = index
+        mapping = {}
+        for idx, i in enumerate(nums):
+            x = target - i
+            if x in mapping:
+                return [idx, mapping[x]]
+            mapping[i] = idx
