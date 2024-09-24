@@ -8,8 +8,10 @@ class Solution:
 
         # this one uses hash-map
         mapping = {}
-        for idx, i in enumerate(nums):
-            x = target - i
+        for idx, num in enumerate(nums):
+            x = target - num
             if x in mapping:
                 return [idx, mapping[x]]
-            mapping[i] = idx
+            else:
+                mapping[num] = idx
+            
