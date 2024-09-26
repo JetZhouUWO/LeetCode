@@ -12,7 +12,7 @@ class Solution:
                 cur.next = list1
                 list1 = list1.next
             else:
-                cur.next= list2
+                cur.next = list2
                 list2 = list2.next
             cur = cur.next
         if list1:
