@@ -6,8 +6,9 @@ class Solution:
         
         for l in range(len(digits)-1,-1,-1):
             if digits[l] + 1 != 10:
-                digits[l]+= 1
+                digits[l] += 1
                 return digits
             else:
                 digits[l] = 0
+            
         return [1] + digits
