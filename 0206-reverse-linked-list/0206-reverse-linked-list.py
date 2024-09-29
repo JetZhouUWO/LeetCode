@@ -12,4 +12,5 @@ class Solution:
             head.next = node
             node = head
             head = temp
+        
         return node
